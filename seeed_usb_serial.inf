@@ -37,43 +37,43 @@ FakeModemCopyFileSection=12
 DefaultDestDir=12
 
 [DeviceList]
-%clio.bootloader.name%=DriverInstall, USB\VID_2886&PID_8001
-%clio.sketch.name%=DriverInstall, USB\VID_2886&PID_0001
-%lite.bootloader.name%=DriverInstall, USB\VID_2886&PID_8002
-%lite.sketch.name%=DriverInstall, USB\VID_2886&PID_0002
-%xadow.bootloader.name%=DriverInstall, USB\VID_2886&PID_8003
-%xadow.sketch.name%=DriverInstall, USB\VID_2886&PID_0003
+%clio.sketch.name%=DriverInstall, USB\VID_2886&PID_8001&MI_00
+%clio.bootloader.name%=DriverInstall, USB\VID_2886&PID_0001
+%lite.sketch.name%=DriverInstall, USB\VID_2886&PID_8002&MI_00
+%lite.bootloader.name%=DriverInstall, USB\VID_2886&PID_0002
+%xadow.sketch.name%=DriverInstall, USB\VID_2886&PID_8003&MI_00
+%xadow.bootloader.name%=DriverInstall, USB\VID_2886&PID_0003
 %seeeduinoV4.name%=DriverInstall, USB\VID_2886&PID_0004
-%cloud.bootloader.name%=DriverInstall, USB\VID_2886&PID_8005
-%cloud.sketch.name%=DriverInstall, USB\VID_2886&PID_0005
-%atomNode.bootloader.name%=DriverInstall, USB\VID_2886&PID_8025
-%atomNode.sketch.name%=DriverInstall, USB\VID_2886&PID_0025
+%cloud.sketch.name%=DriverInstall, USB\VID_2886&PID_8005&MI_00
+%cloud.bootloader.name%=DriverInstall, USB\VID_2886&PID_0005
+%atomNode.sketch.name%=DriverInstall, USB\VID_2886&PID_8025&MI_00
+%atomNode.bootloader.name%=DriverInstall, USB\VID_2886&PID_0025
 
 [DeviceList.NTamd64]
-%clio.bootloader.name%=DriverInstall, USB\VID_2886&PID_8001
-%clio.sketch.name%=DriverInstall, USB\VID_2886&PID_0001
-%lite.bootloader.name%=DriverInstall, USB\VID_2886&PID_8002
-%lite.sketch.name%=DriverInstall, USB\VID_2886&PID_0002
-%xadow.bootloader.name%=DriverInstall, USB\VID_2886&PID_8003
-%xadow.sketch.name%=DriverInstall, USB\VID_2886&PID_0003
+%clio.sketch.name%=DriverInstall, USB\VID_2886&PID_8001&MI_00
+%clio.bootloader.name%=DriverInstall, USB\VID_2886&PID_0001
+%lite.sketch.name%=DriverInstall, USB\VID_2886&PID_8002&MI_00
+%lite.bootloader.name%=DriverInstall, USB\VID_2886&PID_0002
+%xadow.sketch.name%=DriverInstall, USB\VID_2886&PID_8003&MI_00
+%xadow.bootloader.name%=DriverInstall, USB\VID_2886&PID_0003
 %seeeduinoV4.name%=DriverInstall, USB\VID_2886&PID_0004
-%cloud.bootloader.name%=DriverInstall, USB\VID_2886&PID_8005
-%cloud.sketch.name%=DriverInstall, USB\VID_2886&PID_0005
-%atomNode.bootloader.name%=DriverInstall, USB\VID_2886&PID_8025
-%atomNode.sketch.name%=DriverInstall, USB\VID_2886&PID_0025
+%cloud.sketch.name%=DriverInstall, USB\VID_2886&PID_8005&MI_00
+%cloud.bootloader.name%=DriverInstall, USB\VID_2886&PID_0005
+%atomNode.sketch.name%=DriverInstall, USB\VID_2886&PID_8025&MI_00
+%atomNode.bootloader.name%=DriverInstall, USB\VID_2886&PID_0025
 
 [DeviceList.NTia64]
-%clio.bootloader.name%=DriverInstall, USB\VID_2886&PID_8001
-%clio.sketch.name%=DriverInstall, USB\VID_2886&PID_0001
-%lite.bootloader.name%=DriverInstall, USB\VID_2886&PID_8002
-%lite.sketch.name%=DriverInstall, USB\VID_2886&PID_0002
-%xadow.bootloader.name%=DriverInstall, USB\VID_2886&PID_8003
-%xadow.sketch.name%=DriverInstall, USB\VID_2886&PID_0003
+%clio.sketch.name%=DriverInstall, USB\VID_2886&PID_8001&MI_00
+%clio.bootloader.name%=DriverInstall, USB\VID_2886&PID_0001
+%lite.sketch.name%=DriverInstall, USB\VID_2886&PID_8002&MI_00
+%lite.bootloader.name%=DriverInstall, USB\VID_2886&PID_0002
+%xadow.sketch.name%=DriverInstall, USB\VID_2886&PID_8003&MI_00
+%xadow.bootloader.name%=DriverInstall, USB\VID_2886&PID_0003
 %seeeduinoV4.name%=DriverInstall, USB\VID_2886&PID_0004
-%cloud.bootloader.name%=DriverInstall, USB\VID_2886&PID_8005
-%cloud.sketch.name%=DriverInstall, USB\VID_2886&PID_0005
-%atomNode.bootloader.name%=DriverInstall, USB\VID_2886&PID_8025
-%atomNode.sketch.name%=DriverInstall, USB\VID_2886&PID_0025
+%cloud.sketch.name%=DriverInstall, USB\VID_2886&PID_8005&MI_00
+%cloud.bootloader.name%=DriverInstall, USB\VID_2886&PID_0005
+%atomNode.sketch.name%=DriverInstall, USB\VID_2886&PID_8025&MI_00
+%atomNode.bootloader.name%=DriverInstall, USB\VID_2886&PID_0025
 
 [DriverInstall]
 include=mdmcpq.inf,usb.inf
