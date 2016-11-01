@@ -15,6 +15,17 @@ cloud.bootloader.name="Seeeduino Cloud bootloader"
 cloud.sketch.name="Seeeduino Cloud"
 atomNode.bootloader.name="Atom Node bootloader"
 atomNode.sketch.name="Atom Node"
+respeaker.sketch.name="ReSpeaker"
+respeaker.bootloader.name="ReSpeaker bootloader"
+rephone32u4.sketch.name="RePhone 2G 32u4"
+rephone32u4.bootloader.name="RePhone 2G 32u4 bootloader"
+rephoneSAMD.sketch.name="RePhone 2G SAMD21"
+rephoneSAMD.bootloader.name="RePhone 2G SAMD21 bootloader"
+zero.sketch.name="Seeeduino Zero"
+zero.bootloader.name="Seeeduino Zero bootloader"
+lorawan.sketch.name="Seeeduino LoRaWAN"
+lorawan.bootloader.name="Seeeduino LoRaWAN bootloader"
+
 
 
 [DefaultInstall]
@@ -48,6 +59,16 @@ DefaultDestDir=12
 %cloud.bootloader.name%=DriverInstall, USB\VID_2886&PID_0005
 %atomNode.sketch.name%=DriverInstall, USB\VID_2886&PID_8025&MI_00
 %atomNode.bootloader.name%=DriverInstall, USB\VID_2886&PID_0025
+%respeaker.sketch.name%=DriverInstall, USB\VID_2886&PID_8005&MI_00
+%respeaker.bootloader.name%=DriverInstall, USB\VID_2886&PID_0005
+%rephone32u4.sketch.name%=DriverInstall, USB\VID_2886&PID_8006&MI_00
+%rephone32u4.bootloader.name%=DriverInstall, USB\VID_2886&PID_0006
+%rephoneSAMD.sketch.name%=DriverInstall, USB\VID_2886&PID_800A&MI_00
+%rephoneSAMD.bootloader.name%=DriverInstall, USB\VID_2886&PID_000A
+%zero.sketch.name%=DriverInstall, USB\VID_2886&PID_800B&MI_00
+%zero.bootloader.name%=DriverInstall, USB\VID_2886&PID_000B
+%lorawan.sketch.name%=DriverInstall, USB\VID_2886&PID_800C&MI_00
+%lorawan.bootloader.name%=DriverInstall, USB\VID_2886&PID_000C
 
 [DeviceList.NTamd64]
 %clio.sketch.name%=DriverInstall, USB\VID_2886&PID_8001&MI_00
@@ -61,6 +82,16 @@ DefaultDestDir=12
 %cloud.bootloader.name%=DriverInstall, USB\VID_2886&PID_0005
 %atomNode.sketch.name%=DriverInstall, USB\VID_2886&PID_8025&MI_00
 %atomNode.bootloader.name%=DriverInstall, USB\VID_2886&PID_0025
+%respeaker.sketch.name%=DriverInstall, USB\VID_2886&PID_8005&MI_00
+%respeaker.bootloader.name%=DriverInstall, USB\VID_2886&PID_0005
+%rephone32u4.sketch.name%=DriverInstall, USB\VID_2886&PID_8006&MI_00
+%rephone32u4.bootloader.name%=DriverInstall, USB\VID_2886&PID_0006
+%rephoneSAMD.sketch.name%=DriverInstall, USB\VID_2886&PID_800A&MI_00
+%rephoneSAMD.bootloader.name%=DriverInstall, USB\VID_2886&PID_000A
+%zero.sketch.name%=DriverInstall, USB\VID_2886&PID_800B&MI_00
+%zero.bootloader.name%=DriverInstall, USB\VID_2886&PID_000B
+%lorawan.sketch.name%=DriverInstall, USB\VID_2886&PID_800C&MI_00
+%lorawan.bootloader.name%=DriverInstall, USB\VID_2886&PID_000C
 
 [DeviceList.NTia64]
 %clio.sketch.name%=DriverInstall, USB\VID_2886&PID_8001&MI_00
@@ -74,6 +105,16 @@ DefaultDestDir=12
 %cloud.bootloader.name%=DriverInstall, USB\VID_2886&PID_0005
 %atomNode.sketch.name%=DriverInstall, USB\VID_2886&PID_8025&MI_00
 %atomNode.bootloader.name%=DriverInstall, USB\VID_2886&PID_0025
+%respeaker.sketch.name%=DriverInstall, USB\VID_2886&PID_8005&MI_00
+%respeaker.bootloader.name%=DriverInstall, USB\VID_2886&PID_0005
+%rephone32u4.sketch.name%=DriverInstall, USB\VID_2886&PID_8006&MI_00
+%rephone32u4.bootloader.name%=DriverInstall, USB\VID_2886&PID_0006
+%rephoneSAMD.sketch.name%=DriverInstall, USB\VID_2886&PID_800A&MI_00
+%rephoneSAMD.bootloader.name%=DriverInstall, USB\VID_2886&PID_000A
+%zero.sketch.name%=DriverInstall, USB\VID_2886&PID_800B&MI_00
+%zero.bootloader.name%=DriverInstall, USB\VID_2886&PID_000B
+%lorawan.sketch.name%=DriverInstall, USB\VID_2886&PID_800C&MI_00
+%lorawan.bootloader.name%=DriverInstall, USB\VID_2886&PID_000C
 
 [DriverInstall]
 include=mdmcpq.inf,usb.inf
