@@ -25,7 +25,10 @@ zero.sketch.name="Seeeduino Zero"
 zero.bootloader.name="Seeeduino Zero bootloader"
 lorawan.sketch.name="Seeeduino LoRaWAN"
 lorawan.bootloader.name="Seeeduino LoRaWAN bootloader"
-
+groveZero.sketch.name="Grove Zero"
+groveZero.bootloader.name="Grove Zero bootloader"
+wioTraker.sketch.name="Wio Traker"
+wioTraker.bootloader.name="Wio Traker bootloader"
 
 
 [DefaultInstall]
@@ -69,6 +72,10 @@ DefaultDestDir=12
 %zero.bootloader.name%=DriverInstall, USB\VID_2886&PID_000B
 %lorawan.sketch.name%=DriverInstall, USB\VID_2886&PID_800C&MI_00
 %lorawan.bootloader.name%=DriverInstall, USB\VID_2886&PID_000C
+%groveZero.sketch.name%=DriverInstall, USB\VID_2886&PID_800D&MI_00
+%groveZero.bootloader.name%=DriverInstall, USB\VID_2886&PID_000D
+%wioTraker.sketch.name%=DriverInstall, USB\VID_2886&PID_800E&MI_00
+%wioTraker.bootloader.name%=DriverInstall, USB\VID_2886&PID_000E
 
 [DeviceList.NTamd64]
 %clio.sketch.name%=DriverInstall, USB\VID_2886&PID_8001&MI_00
@@ -92,6 +99,10 @@ DefaultDestDir=12
 %zero.bootloader.name%=DriverInstall, USB\VID_2886&PID_000B
 %lorawan.sketch.name%=DriverInstall, USB\VID_2886&PID_800C&MI_00
 %lorawan.bootloader.name%=DriverInstall, USB\VID_2886&PID_000C
+%groveZero.sketch.name%=DriverInstall, USB\VID_2886&PID_800D&MI_00
+%groveZero.bootloader.name%=DriverInstall, USB\VID_2886&PID_000D
+%wioTraker.sketch.name%=DriverInstall, USB\VID_2886&PID_800E&MI_00
+%wioTraker.bootloader.name%=DriverInstall, USB\VID_2886&PID_000E
 
 [DeviceList.NTia64]
 %clio.sketch.name%=DriverInstall, USB\VID_2886&PID_8001&MI_00
@@ -115,6 +126,10 @@ DefaultDestDir=12
 %zero.bootloader.name%=DriverInstall, USB\VID_2886&PID_000B
 %lorawan.sketch.name%=DriverInstall, USB\VID_2886&PID_800C&MI_00
 %lorawan.bootloader.name%=DriverInstall, USB\VID_2886&PID_000C
+%groveZero.sketch.name%=DriverInstall, USB\VID_2886&PID_800D&MI_00
+%groveZero.bootloader.name%=DriverInstall, USB\VID_2886&PID_000D
+%wioTraker.sketch.name%=DriverInstall, USB\VID_2886&PID_800E&MI_00
+%wioTraker.bootloader.name%=DriverInstall, USB\VID_2886&PID_000E
 
 [DriverInstall]
 include=mdmcpq.inf,usb.inf
