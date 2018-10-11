@@ -29,7 +29,8 @@ groveZero.sketch.name="Grove Zero"
 groveZero.bootloader.name="Grove Zero bootloader"
 wioTraker.sketch.name="Wio Traker"
 wioTraker.bootloader.name="Wio Traker bootloader"
-
+stitchKit.bootloader.name="StitchKit board bootloader"
+stitchKit.sketch.name="StitchKit board"
 
 [DefaultInstall]
 CopyINF=seeed_usb_serial.inf
@@ -73,9 +74,11 @@ DefaultDestDir=12
 %lorawan.sketch.name%=DriverInstall, USB\VID_2886&PID_800C&MI_00
 %lorawan.bootloader.name%=DriverInstall, USB\VID_2886&PID_000C
 %groveZero.sketch.name%=DriverInstall, USB\VID_2886&PID_800D&MI_00
-%groveZero.bootloader.name%=DriverInstall, USB\VID_2886&PID_000D
+%groveZero.bootloader.name%=DriverInstall, USB\VID_2886&PID_000D&MI_00
 %wioTraker.sketch.name%=DriverInstall, USB\VID_2886&PID_800E&MI_00
 %wioTraker.bootloader.name%=DriverInstall, USB\VID_2886&PID_000E
+%stitchKit.sketch.name%=DriverInstall, USB\VID_2886&PID_800F&MI_00
+%stitchKit.bootloader.name%=DriverInstall, USB\VID_2886&PID_000F
 
 [DeviceList.NTamd64]
 %clio.sketch.name%=DriverInstall, USB\VID_2886&PID_8001&MI_00
@@ -100,9 +103,11 @@ DefaultDestDir=12
 %lorawan.sketch.name%=DriverInstall, USB\VID_2886&PID_800C&MI_00
 %lorawan.bootloader.name%=DriverInstall, USB\VID_2886&PID_000C
 %groveZero.sketch.name%=DriverInstall, USB\VID_2886&PID_800D&MI_00
-%groveZero.bootloader.name%=DriverInstall, USB\VID_2886&PID_000D
+%groveZero.bootloader.name%=DriverInstall, USB\VID_2886&PID_000D&MI_00
 %wioTraker.sketch.name%=DriverInstall, USB\VID_2886&PID_800E&MI_00
 %wioTraker.bootloader.name%=DriverInstall, USB\VID_2886&PID_000E
+%stitchKit.sketch.name%=DriverInstall, USB\VID_2886&PID_800F&MI_00
+%stitchKit.bootloader.name%=DriverInstall, USB\VID_2886&PID_000F
 
 [DeviceList.NTia64]
 %clio.sketch.name%=DriverInstall, USB\VID_2886&PID_8001&MI_00
@@ -127,9 +132,11 @@ DefaultDestDir=12
 %lorawan.sketch.name%=DriverInstall, USB\VID_2886&PID_800C&MI_00
 %lorawan.bootloader.name%=DriverInstall, USB\VID_2886&PID_000C
 %groveZero.sketch.name%=DriverInstall, USB\VID_2886&PID_800D&MI_00
-%groveZero.bootloader.name%=DriverInstall, USB\VID_2886&PID_000D
+%groveZero.bootloader.name%=DriverInstall, USB\VID_2886&PID_000D&MI_00
 %wioTraker.sketch.name%=DriverInstall, USB\VID_2886&PID_800E&MI_00
 %wioTraker.bootloader.name%=DriverInstall, USB\VID_2886&PID_000E
+%stitchKit.sketch.name%=DriverInstall, USB\VID_2886&PID_800F&MI_00
+%stitchKit.bootloader.name%=DriverInstall, USB\VID_2886&PID_000F
 
 [DriverInstall]
 include=mdmcpq.inf,usb.inf
