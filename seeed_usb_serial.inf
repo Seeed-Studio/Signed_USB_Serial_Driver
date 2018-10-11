@@ -31,6 +31,10 @@ wioTraker.sketch.name="Wio Traker"
 wioTraker.bootloader.name="Wio Traker bootloader"
 stitchKit.bootloader.name="StitchKit board bootloader"
 stitchKit.sketch.name="StitchKit board"
+lotusM0.sketch.name="Seeeduino Lotus - Cortex-M0"
+lotusM0.bootloader.name="Seeeduino Lotus - Cortex-M0 bootloader"
+Cortex_M0+.sketch.name="Seeeduino Cortex M0+"
+Cortex_M0+.bootloader.name="Seeeduino Cortex M0+ bootloader"
 
 [DefaultInstall]
 CopyINF=seeed_usb_serial.inf
@@ -80,6 +84,15 @@ DefaultDestDir=12
 %stitchKit.sketch.name%=DriverInstall, USB\VID_2886&PID_800F&MI_00
 %stitchKit.bootloader.name%=DriverInstall, USB\VID_2886&PID_000F
 
+%lotusM0.sketch.name%=DriverInstall, USB\VID_2886&PID_8026&MI_00
+%lotusM0.bootloader.name%=DriverInstall, USB\VID_2886&PID_0026
+%lotusM0.sketch.name%=DriverInstall, USB\VID_2886&PID_8026&MI_00
+%lotusM0.bootloader.name%=DriverInstall, USB\VID_2886&PID_0026
+%Cortex_M0+.sketch.name%=DriverInstall, USB\VID_2886&PID_8027&MI_00
+%Cortex_M0+.bootloader.name%=DriverInstall, USB\VID_2886&PID_0027
+%Cortex_M0+.sketch.name%=DriverInstall, USB\VID_2886&PID_8027&MI_00
+%Cortex_M0+.bootloader.name%=DriverInstall, USB\VID_2886&PID_0027
+
 [DeviceList.NTamd64]
 %clio.sketch.name%=DriverInstall, USB\VID_2886&PID_8001&MI_00
 %clio.bootloader.name%=DriverInstall, USB\VID_2886&PID_0001
@@ -108,7 +121,11 @@ DefaultDestDir=12
 %wioTraker.bootloader.name%=DriverInstall, USB\VID_2886&PID_000E
 %stitchKit.sketch.name%=DriverInstall, USB\VID_2886&PID_800F&MI_00
 %stitchKit.bootloader.name%=DriverInstall, USB\VID_2886&PID_000F
+%lotusM0.sketch.name%=DriverInstall, USB\VID_2886&PID_8026&MI_00
+%lotusM0.bootloader.name%=DriverInstall, USB\VID_2886&PID_0026
 
+%Cortex_M0+.sketch.name%=DriverInstall, USB\VID_2886&PID_8027&MI_00
+%Cortex_M0+.bootloader.name%=DriverInstall, USB\VID_2886&PID_0027
 [DeviceList.NTia64]
 %clio.sketch.name%=DriverInstall, USB\VID_2886&PID_8001&MI_00
 %clio.bootloader.name%=DriverInstall, USB\VID_2886&PID_0001
@@ -137,7 +154,11 @@ DefaultDestDir=12
 %wioTraker.bootloader.name%=DriverInstall, USB\VID_2886&PID_000E
 %stitchKit.sketch.name%=DriverInstall, USB\VID_2886&PID_800F&MI_00
 %stitchKit.bootloader.name%=DriverInstall, USB\VID_2886&PID_000F
+%lotusM0.sketch.name%=DriverInstall, USB\VID_2886&PID_8026&MI_00
+%lotusM0.bootloader.name%=DriverInstall, USB\VID_2886&PID_0026
 
+%Cortex_M0+.sketch.name%=DriverInstall, USB\VID_2886&PID_8027&MI_00
+%Cortex_M0+.bootloader.name%=DriverInstall, USB\VID_2886&PID_0027
 [DriverInstall]
 include=mdmcpq.inf,usb.inf
 CopyFiles = FakeModemCopyFileSection
