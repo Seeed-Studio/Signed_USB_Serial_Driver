@@ -35,6 +35,8 @@ lotusM0.sketch.name="Seeeduino Lotus - Cortex-M0"
 lotusM0.bootloader.name="Seeeduino Lotus - Cortex-M0 bootloader"
 Cortex_M0+.sketch.name="Seeeduino Cortex M0+"
 Cortex_M0+.bootloader.name="Seeeduino Cortex M0+ bootloader"
+Wio_Lite_W600.sketch.name="Seeeduino Wio Lite W600"
+Wio_Lite_W600.bootloader.name="Seeeduino Wio Lite W600 bootloader"
 
 [DefaultInstall]
 CopyINF=seeed_usb_serial.inf
@@ -93,6 +95,11 @@ DefaultDestDir=12
 %Cortex_M0+.sketch.name%=DriverInstall, USB\VID_2886&PID_8027&MI_00
 %Cortex_M0+.bootloader.name%=DriverInstall, USB\VID_2886&PID_0027
 
+%Wio_Lite_W600.sketch.name%=DriverInstall, USB\VID_2886&PID_8028&MI_00
+%Wio_Lite_W600.bootloader.name%=DriverInstall, USB\VID_2886&PID_0028
+%Wio_Lite_W600.sketch.name%=DriverInstall, USB\VID_2886&PID_8028&MI_00
+%Wio_Lite_W600.bootloader.name%=DriverInstall, USB\VID_2886&PID_0028
+
 [DeviceList.NTamd64]
 %clio.sketch.name%=DriverInstall, USB\VID_2886&PID_8001&MI_00
 %clio.bootloader.name%=DriverInstall, USB\VID_2886&PID_0001
@@ -126,6 +133,9 @@ DefaultDestDir=12
 
 %Cortex_M0+.sketch.name%=DriverInstall, USB\VID_2886&PID_8027&MI_00
 %Cortex_M0+.bootloader.name%=DriverInstall, USB\VID_2886&PID_0027
+
+%Wio_Lite_W600.sketch.name%=DriverInstall, USB\VID_2886&PID_8028&MI_00
+%Wio_Lite_W600.bootloader.name%=DriverInstall, USB\VID_2886&PID_0028
 [DeviceList.NTia64]
 %clio.sketch.name%=DriverInstall, USB\VID_2886&PID_8001&MI_00
 %clio.bootloader.name%=DriverInstall, USB\VID_2886&PID_0001
@@ -159,6 +169,10 @@ DefaultDestDir=12
 
 %Cortex_M0+.sketch.name%=DriverInstall, USB\VID_2886&PID_8027&MI_00
 %Cortex_M0+.bootloader.name%=DriverInstall, USB\VID_2886&PID_0027
+
+%Wio_Lite_W600.sketch.name%=DriverInstall, USB\VID_2886&PID_8028&MI_00
+%Wio_Lite_W600.bootloader.name%=DriverInstall, USB\VID_2886&PID_0028
+
 [DriverInstall]
 include=mdmcpq.inf,usb.inf
 CopyFiles = FakeModemCopyFileSection
