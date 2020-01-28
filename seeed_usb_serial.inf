@@ -25,18 +25,25 @@ zero.sketch.name="Seeeduino Zero"
 zero.bootloader.name="Seeeduino Zero bootloader"
 lorawan.sketch.name="Seeeduino LoRaWAN"
 lorawan.bootloader.name="Seeeduino LoRaWAN bootloader"
-groveZero.sketch.name="Grove Zero"
-groveZero.bootloader.name="Grove Zero bootloader"
+groveTwoCore.sketch.name="Grove Two Core"
+groveTwoCore.bootloader.name="Grove Two Core bootloader"
 wioTraker.sketch.name="Wio Traker"
 wioTraker.bootloader.name="Wio Traker bootloader"
-stitchKit.bootloader.name="StitchKit board bootloader"
-stitchKit.sketch.name="StitchKit board"
-lotusM0.sketch.name="Seeeduino Lotus - Cortex-M0"
-lotusM0.bootloader.name="Seeeduino Lotus - Cortex-M0 bootloader"
-Cortex_M0+.sketch.name="Seeeduino Cortex M0+"
-Cortex_M0+.bootloader.name="Seeeduino Cortex M0+ bootloader"
-Wio_Lite_W600.sketch.name="Seeeduino Wio Lite W600"
-Wio_Lite_W600.bootloader.name="Seeeduino Wio Lite W600 bootloader"
+lotusM0.sketch.name="Seeeduino Lotus V2 - Cortex-M0"
+lotusM0.bootloader.name="Seeeduino Lotus V2 - Cortex-M0 bootloader"
+CortexM0.sketch.name="Seeeduino Cortex-M0"
+CortexM0.bootloader.name="Seeeduino Cortex-M0 bootloader"
+wioLiteW600.sketch.name="Seeeduino Wio Lite W600"
+wioLiteW600.bootloader.name="Seeeduino Wio Lite W600 bootloader"
+wioBle.sketch.name="Seeeduino Wio Ble W600"
+wioBle.bootloader.name="Seeeduino Wio Ble W600 bootloader"
+femto.sketch.name="Seeeduino femto"
+femto.bootloader.name="Seeeduino femto bootloader"
+groveUIWireless.sketch.name="Seeeduino Grove UI Wireless"
+groveUIWireless.bootloader.name="Seeeduino Grove UI Wireless bootloader"
+XIAO.sketch.name="Seeeduino XIAO"
+XIAO.bootloader.name="Seeeduino XIAO bootloader"
+
 
 [DefaultInstall]
 CopyINF=seeed_usb_serial.inf
@@ -79,26 +86,24 @@ DefaultDestDir=12
 %zero.bootloader.name%=DriverInstall, USB\VID_2886&PID_000B
 %lorawan.sketch.name%=DriverInstall, USB\VID_2886&PID_800C&MI_00
 %lorawan.bootloader.name%=DriverInstall, USB\VID_2886&PID_000C
-%groveZero.sketch.name%=DriverInstall, USB\VID_2886&PID_800D&MI_00
-%groveZero.bootloader.name%=DriverInstall, USB\VID_2886&PID_000D&MI_00
+%groveTwoCore.sketch.name%=DriverInstall, USB\VID_2886&PID_800D&MI_00
+%groveTwoCore.bootloader.name%=DriverInstall, USB\VID_2886&PID_000D
 %wioTraker.sketch.name%=DriverInstall, USB\VID_2886&PID_800E&MI_00
 %wioTraker.bootloader.name%=DriverInstall, USB\VID_2886&PID_000E
-%stitchKit.sketch.name%=DriverInstall, USB\VID_2886&PID_800F&MI_00
-%stitchKit.bootloader.name%=DriverInstall, USB\VID_2886&PID_000F
-
 %lotusM0.sketch.name%=DriverInstall, USB\VID_2886&PID_8026&MI_00
 %lotusM0.bootloader.name%=DriverInstall, USB\VID_2886&PID_0026
-%lotusM0.sketch.name%=DriverInstall, USB\VID_2886&PID_8026&MI_00
-%lotusM0.bootloader.name%=DriverInstall, USB\VID_2886&PID_0026
-%Cortex_M0+.sketch.name%=DriverInstall, USB\VID_2886&PID_8027&MI_00
-%Cortex_M0+.bootloader.name%=DriverInstall, USB\VID_2886&PID_0027
-%Cortex_M0+.sketch.name%=DriverInstall, USB\VID_2886&PID_8027&MI_00
-%Cortex_M0+.bootloader.name%=DriverInstall, USB\VID_2886&PID_0027
-
-%Wio_Lite_W600.sketch.name%=DriverInstall, USB\VID_2886&PID_8028&MI_00
-%Wio_Lite_W600.bootloader.name%=DriverInstall, USB\VID_2886&PID_0028
-%Wio_Lite_W600.sketch.name%=DriverInstall, USB\VID_2886&PID_8028&MI_00
-%Wio_Lite_W600.bootloader.name%=DriverInstall, USB\VID_2886&PID_0028
+%CortexM0.sketch.name%=DriverInstall, USB\VID_2886&PID_8027&MI_00
+%CortexM0.bootloader.name%=DriverInstall, USB\VID_2886&PID_0027
+%wioLiteW600.sketch.name%=DriverInstall, USB\VID_2886&PID_8028&MI_00
+%wioLiteW600.bootloader.name%=DriverInstall, USB\VID_2886&PID_0028
+%wioBle.sketch.name%=DriverInstall, USB\VID_2886&PID_802A&MI_00
+%wioBle.bootloader.name%=DriverInstall, USB\VID_2886&PID_002A
+%femto.sketch.name%=DriverInstall, USB\VID_2886&PID_802C&MI_00
+%femto.bootloader.name%=DriverInstall, USB\VID_2886&PID_002C&MI_00
+%groveUIWireless.sketch.name%=DriverInstall, USB\VID_2886&PID_802D&MI_00
+%groveUIWireless.bootloader.name%=DriverInstall, USB\VID_2886&PID_002D&MI_00
+%XIAO.sketch.name%=DriverInstall, USB\VID_2886&PID_802F&MI_00
+%XIAO.bootloader.name%=DriverInstall, USB\VID_2886&PID_002F&MI_00
 
 [DeviceList.NTamd64]
 %clio.sketch.name%=DriverInstall, USB\VID_2886&PID_8001&MI_00
@@ -122,20 +127,25 @@ DefaultDestDir=12
 %zero.bootloader.name%=DriverInstall, USB\VID_2886&PID_000B
 %lorawan.sketch.name%=DriverInstall, USB\VID_2886&PID_800C&MI_00
 %lorawan.bootloader.name%=DriverInstall, USB\VID_2886&PID_000C
-%groveZero.sketch.name%=DriverInstall, USB\VID_2886&PID_800D&MI_00
-%groveZero.bootloader.name%=DriverInstall, USB\VID_2886&PID_000D&MI_00
+%groveTwoCore.sketch.name%=DriverInstall, USB\VID_2886&PID_800D&MI_00
+%groveTwoCore.bootloader.name%=DriverInstall, USB\VID_2886&PID_000D
 %wioTraker.sketch.name%=DriverInstall, USB\VID_2886&PID_800E&MI_00
 %wioTraker.bootloader.name%=DriverInstall, USB\VID_2886&PID_000E
-%stitchKit.sketch.name%=DriverInstall, USB\VID_2886&PID_800F&MI_00
-%stitchKit.bootloader.name%=DriverInstall, USB\VID_2886&PID_000F
 %lotusM0.sketch.name%=DriverInstall, USB\VID_2886&PID_8026&MI_00
 %lotusM0.bootloader.name%=DriverInstall, USB\VID_2886&PID_0026
+%CortexM0.sketch.name%=DriverInstall, USB\VID_2886&PID_8027&MI_00
+%CortexM0.bootloader.name%=DriverInstall, USB\VID_2886&PID_0027
+%wioLiteW600.sketch.name%=DriverInstall, USB\VID_2886&PID_8028&MI_00
+%wioLiteW600.bootloader.name%=DriverInstall, USB\VID_2886&PID_0028
+%wioBle.sketch.name%=DriverInstall, USB\VID_2886&PID_802A&MI_00
+%wioBle.bootloader.name%=DriverInstall, USB\VID_2886&PID_002A
+%femto.sketch.name%=DriverInstall, USB\VID_2886&PID_802C&MI_00
+%femto.bootloader.name%=DriverInstall, USB\VID_2886&PID_002C&MI_00
+%groveUIWireless.sketch.name%=DriverInstall, USB\VID_2886&PID_802D&MI_00
+%groveUIWireless.bootloader.name%=DriverInstall, USB\VID_2886&PID_002D&MI_00
+%XIAO.sketch.name%=DriverInstall, USB\VID_2886&PID_802F&MI_00
+%XIAO.bootloader.name%=DriverInstall, USB\VID_2886&PID_002F&MI_00
 
-%Cortex_M0+.sketch.name%=DriverInstall, USB\VID_2886&PID_8027&MI_00
-%Cortex_M0+.bootloader.name%=DriverInstall, USB\VID_2886&PID_0027
-
-%Wio_Lite_W600.sketch.name%=DriverInstall, USB\VID_2886&PID_8028&MI_00
-%Wio_Lite_W600.bootloader.name%=DriverInstall, USB\VID_2886&PID_0028
 [DeviceList.NTia64]
 %clio.sketch.name%=DriverInstall, USB\VID_2886&PID_8001&MI_00
 %clio.bootloader.name%=DriverInstall, USB\VID_2886&PID_0001
@@ -158,20 +168,24 @@ DefaultDestDir=12
 %zero.bootloader.name%=DriverInstall, USB\VID_2886&PID_000B
 %lorawan.sketch.name%=DriverInstall, USB\VID_2886&PID_800C&MI_00
 %lorawan.bootloader.name%=DriverInstall, USB\VID_2886&PID_000C
-%groveZero.sketch.name%=DriverInstall, USB\VID_2886&PID_800D&MI_00
-%groveZero.bootloader.name%=DriverInstall, USB\VID_2886&PID_000D&MI_00
+%groveTwoCore.sketch.name%=DriverInstall, USB\VID_2886&PID_800D&MI_00
+%groveTwoCore.bootloader.name%=DriverInstall, USB\VID_2886&PID_000D
 %wioTraker.sketch.name%=DriverInstall, USB\VID_2886&PID_800E&MI_00
 %wioTraker.bootloader.name%=DriverInstall, USB\VID_2886&PID_000E
-%stitchKit.sketch.name%=DriverInstall, USB\VID_2886&PID_800F&MI_00
-%stitchKit.bootloader.name%=DriverInstall, USB\VID_2886&PID_000F
 %lotusM0.sketch.name%=DriverInstall, USB\VID_2886&PID_8026&MI_00
 %lotusM0.bootloader.name%=DriverInstall, USB\VID_2886&PID_0026
-
-%Cortex_M0+.sketch.name%=DriverInstall, USB\VID_2886&PID_8027&MI_00
-%Cortex_M0+.bootloader.name%=DriverInstall, USB\VID_2886&PID_0027
-
-%Wio_Lite_W600.sketch.name%=DriverInstall, USB\VID_2886&PID_8028&MI_00
-%Wio_Lite_W600.bootloader.name%=DriverInstall, USB\VID_2886&PID_0028
+%CortexM0.sketch.name%=DriverInstall, USB\VID_2886&PID_8027&MI_00
+%CortexM0.bootloader.name%=DriverInstall, USB\VID_2886&PID_0027
+%wioLiteW600.sketch.name%=DriverInstall, USB\VID_2886&PID_8028&MI_00
+%wioLiteW600.bootloader.name%=DriverInstall, USB\VID_2886&PID_0028
+%wioBle.sketch.name%=DriverInstall, USB\VID_2886&PID_802A&MI_00
+%wioBle.bootloader.name%=DriverInstall, USB\VID_2886&PID_002A
+%femto.sketch.name%=DriverInstall, USB\VID_2886&PID_802C&MI_00
+%femto.bootloader.name%=DriverInstall, USB\VID_2886&PID_002C&MI_00
+%groveUIWireless.sketch.name%=DriverInstall, USB\VID_2886&PID_802D&MI_00
+%groveUIWireless.bootloader.name%=DriverInstall, USB\VID_2886&PID_002D&MI_00
+%XIAO.sketch.name%=DriverInstall, USB\VID_2886&PID_802F&MI_00
+%XIAO.bootloader.name%=DriverInstall, USB\VID_2886&PID_002F&MI_00
 
 [DriverInstall]
 include=mdmcpq.inf,usb.inf
