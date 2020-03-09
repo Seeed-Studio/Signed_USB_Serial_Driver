@@ -39,8 +39,8 @@ wioBle.sketch.name="Seeeduino Wio Ble W600"
 wioBle.bootloader.name="Seeeduino Wio Ble W600 bootloader"
 femto.sketch.name="Seeeduino femto"
 femto.bootloader.name="Seeeduino femto bootloader"
-groveUIWireless.sketch.name="Seeeduino Grove UI Wireless"
-groveUIWireless.bootloader.name="Seeeduino Grove UI Wireless bootloader"
+wioTerminal.sketch.name="Seeeduino Wio Terminal"
+wioTerminal.bootloader.name="Seeeduino Wio Terminal bootloader"
 XIAO.sketch.name="Seeeduino XIAO"
 XIAO.bootloader.name="Seeeduino XIAO bootloader"
 
@@ -100,8 +100,8 @@ DefaultDestDir=12
 %wioBle.bootloader.name%=DriverInstall, USB\VID_2886&PID_002A
 %femto.sketch.name%=DriverInstall, USB\VID_2886&PID_802C&MI_00
 %femto.bootloader.name%=DriverInstall, USB\VID_2886&PID_002C&MI_00
-%groveUIWireless.sketch.name%=DriverInstall, USB\VID_2886&PID_802D&MI_00
-%groveUIWireless.bootloader.name%=DriverInstall, USB\VID_2886&PID_002D&MI_00
+%wioTerminal.sketch.name%=DriverInstall, USB\VID_2886&PID_802D&MI_00
+%wioTerminal.bootloader.name%=DriverInstall, USB\VID_2886&PID_002D&MI_00
 %XIAO.sketch.name%=DriverInstall, USB\VID_2886&PID_802F&MI_00
 %XIAO.bootloader.name%=DriverInstall, USB\VID_2886&PID_002F&MI_00
 
@@ -141,8 +141,8 @@ DefaultDestDir=12
 %wioBle.bootloader.name%=DriverInstall, USB\VID_2886&PID_002A
 %femto.sketch.name%=DriverInstall, USB\VID_2886&PID_802C&MI_00
 %femto.bootloader.name%=DriverInstall, USB\VID_2886&PID_002C&MI_00
-%groveUIWireless.sketch.name%=DriverInstall, USB\VID_2886&PID_802D&MI_00
-%groveUIWireless.bootloader.name%=DriverInstall, USB\VID_2886&PID_002D&MI_00
+%wioTerminal.sketch.name%=DriverInstall, USB\VID_2886&PID_802D&MI_00
+%wioTerminal.bootloader.name%=DriverInstall, USB\VID_2886&PID_002D&MI_00
 %XIAO.sketch.name%=DriverInstall, USB\VID_2886&PID_802F&MI_00
 %XIAO.bootloader.name%=DriverInstall, USB\VID_2886&PID_002F&MI_00
 
@@ -182,8 +182,8 @@ DefaultDestDir=12
 %wioBle.bootloader.name%=DriverInstall, USB\VID_2886&PID_002A
 %femto.sketch.name%=DriverInstall, USB\VID_2886&PID_802C&MI_00
 %femto.bootloader.name%=DriverInstall, USB\VID_2886&PID_002C&MI_00
-%groveUIWireless.sketch.name%=DriverInstall, USB\VID_2886&PID_802D&MI_00
-%groveUIWireless.bootloader.name%=DriverInstall, USB\VID_2886&PID_002D&MI_00
+%wioTerminal.sketch.name%=DriverInstall, USB\VID_2886&PID_802D&MI_00
+%wioTerminal.bootloader.name%=DriverInstall, USB\VID_2886&PID_002D&MI_00
 %XIAO.sketch.name%=DriverInstall, USB\VID_2886&PID_802F&MI_00
 %XIAO.bootloader.name%=DriverInstall, USB\VID_2886&PID_002F&MI_00
 
