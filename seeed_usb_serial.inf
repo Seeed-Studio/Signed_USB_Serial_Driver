@@ -43,6 +43,8 @@ wioTerminal.sketch.name="Seeeduino Wio Terminal"
 wioTerminal.bootloader.name="Seeeduino Wio Terminal bootloader"
 XIAO.sketch.name="Seeeduino XIAO"
 XIAO.bootloader.name="Seeeduino XIAO bootloader"
+XIAO_RA4M1.sketch.name="Seeed"
+XIAO_RA4M1.bootloader.name="Xiao RA4M1 Firmware Upgrade"
 
 
 [DefaultInstall]
@@ -104,6 +106,8 @@ DefaultDestDir=12
 %wioTerminal.bootloader.name%=DriverInstall, USB\VID_2886&PID_002D&MI_00
 %XIAO.sketch.name%=DriverInstall, USB\VID_2886&PID_802F&MI_00
 %XIAO.bootloader.name%=DriverInstall, USB\VID_2886&PID_002F&MI_00
+%XIAO_RA4M1.sketch.name%=DriverInstall. USB\VID_2886&PID_0049&MI_00
+%XIAO_RA4M1.bootloader.name%=DriverInstall, USB\VID_2886&PID_0049&MI_00
 
 [DeviceList.NTamd64]
 %clio.sketch.name%=DriverInstall, USB\VID_2886&PID_8001&MI_00
@@ -145,6 +149,8 @@ DefaultDestDir=12
 %wioTerminal.bootloader.name%=DriverInstall, USB\VID_2886&PID_002D&MI_00
 %XIAO.sketch.name%=DriverInstall, USB\VID_2886&PID_802F&MI_00
 %XIAO.bootloader.name%=DriverInstall, USB\VID_2886&PID_002F&MI_00
+%XIAO_RA4M1.sketch.name%=DriverInstall. USB\VID_2886&PID_0049&MI_00
+%XIAO_RA4M1.bootloader.name%=DriverInstall, USB\VID_2886&PID_0049&MI_00
 
 [DeviceList.NTia64]
 %clio.sketch.name%=DriverInstall, USB\VID_2886&PID_8001&MI_00
@@ -186,6 +192,8 @@ DefaultDestDir=12
 %wioTerminal.bootloader.name%=DriverInstall, USB\VID_2886&PID_002D&MI_00
 %XIAO.sketch.name%=DriverInstall, USB\VID_2886&PID_802F&MI_00
 %XIAO.bootloader.name%=DriverInstall, USB\VID_2886&PID_002F&MI_00
+%XIAO_RA4M1.sketch.name%=DriverInstall. USB\VID_2886&PID_0049&MI_00
+%XIAO_RA4M1.bootloader.name%=DriverInstall, USB\VID_2886&PID_0049&MI_00
 
 [DriverInstall]
 include=mdmcpq.inf,usb.inf
